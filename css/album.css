@@ -1,0 +1,142 @@
+.wz-85{
+    width: 85px;
+}
+.nav1 .navbar-nav .nav-item-1:hover .dropdown-menu{
+    display: block;
+  }
+.nav-item-1 .dropdown-menu {
+    position: relative;
+}
+.dropdown-button::after{
+    content:"";
+    color:gray;
+}
+
+.nav1 .navbar-nav .nav-item-1 .dropdown-menu::after{
+    content:"";
+    position: absolute;
+    top: -10px;
+    left: 2px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 15px 10px;
+    border-color: transparent transparent #fff transparent;
+}
+.zindex{
+    z-index: 99999;
+}
+.bg-my1{
+    background-color: #202023;
+}
+.bg-my3{
+    background-color: rgba(0,0,0,0.5);
+}
+.icon-flickr_logo_dots{
+    height: 50px;
+    width: 110px;
+}
+.fz-12{
+    font-size: 12px;
+}
+.fz-14{
+    font-size: 14px;
+}
+.fz-16{
+    font-size: 16px;
+}
+.fz-18{
+    font-size: 18px;
+}
+.fz-24{
+    font-size: 24px;
+}
+.fz-28{
+    font-size: 28px;
+}
+.fz-30{
+    font-size: 30px;
+}
+.fz-36{
+    font-size: 36px;
+}
+
+
+header{
+    background-image: url(../images/pexels-brigitte-tohm-189536.jpg);
+    background-size: cover;
+    background-position:30% 85%;
+}
+.hz50{
+    height: 50px;
+}
+.hz30{
+    height: 30px;
+}
+.hz-800{
+    height: 800px;
+}
+.h250{
+    height: 250px;
+}
+.hz-200{
+   height: 200px;
+}
+.hz-400{
+    height: 400px;
+}
+.hz-500{
+    height: 500px;
+}
+.h-100{
+    height: 100px;
+}
+.w-100{
+    width: 100px;
+}
+.he{
+    width: 100px;
+}
+.h36{
+    height: 36px;
+}
+.w55{
+    width: 55px;
+}
+
+.min-hz-500{
+    min-height: 500px;
+}
+aside .nav .nav-item .active{
+    border-bottom: 3px solid #0090DC;
+    
+}
+
+.p{
+    text-shadow: 
+    rgba(0, 0, 0, 0.5) 1px 1px 1px;
+}
+.imgp{
+    bottom: 0;
+
+}
+.object-fit-cover{
+	object-fit: cover;
+}
+.z-index{
+    z-index: 1;
+}
+.bhover{
+    opacity: 0;
+    background:linear-gradient(to top, rgba(0,0,0,0.4)  ,transparent 30%);
+}
+.bhover:hover{
+    opacity: 1;
+    transition: 0.3s;
+}
+.info{
+    text-shadow: rgba(0, 0, 0, 0.8) 2px 2px 3px;
+}
+.author{
+    color:rgb(198, 198, 198);
+}
